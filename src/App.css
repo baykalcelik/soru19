@@ -1,6 +1,13 @@
 .App {
-  text-align: center;
+  width:100%;
 }
 
+#bodyArea{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    background-color: rgb(250,250,250); 
+    border: 3px solid green;
+}
 
 

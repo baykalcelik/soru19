@@ -1,0 +1,38 @@
+
+
+
+#searchBarCover{
+    position:relative;
+}
+
+#searchMagnif{
+    position:absolute;
+    z-index:2;
+    left: 1.3rem;
+    top: 0.6rem;
+    color:grey;
+}
+
+#searchInput{
+    width: 12rem;
+    outline:none;
+    border:none;
+    background-color: rgb(238, 236, 236);
+    border-radius: 5px;
+    font-size:1rem;
+    padding:0.6rem 1rem 0.6rem 3rem;
+    
+}
+
+#searchInput::placeholder{
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+
+#searchInput:focus{
+    width: 14rem;
+    
+    
+}

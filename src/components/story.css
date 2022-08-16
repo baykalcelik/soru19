@@ -1,0 +1,52 @@
+
+
+#storyCover{
+    width:75px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    /* border:1px solid black; */
+    font-size: 0.7rem;
+
+    
+}
+
+.imageBackground{
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+
+    background: rgb(241,250,0);
+    background: linear-gradient(45deg, rgba(241,250,0,1) 0%, rgba(246,0,0,1) 50%, rgba(255,0,148,1) 100%);
+
+
+}
+
+.stimg{
+    /* display: none; */
+    width:50px;
+    height:50px;
+    border: 2px solid white;
+    
+    border-radius: 50%;
+
+    /* outline-style: solid;
+    outline-offset: 1px;
+    outline-width: 2px;
+    outline-color: red; */
+
+}
+
+.sttext{
+    margin-top:0.3rem;
+    font-size: 0.7rem;
+    width: 80%;
+    
+}
