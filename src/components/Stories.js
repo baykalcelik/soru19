@@ -1,33 +1,19 @@
 import './stories.css';
-import Story from './Story';
+import UserBadge from './UserBadge';
+import {useState} from 'react';
 
 let sira = 0;
 
 export default function Stories(){
 
 
+    const [scarduser, setScarduser] = useState({badgeText:"XXX", uname:"Ahmet.Delioğlu", src:"https://picsum.photos/id/23/100/100",yatayaragenis:false, ufsize:"big",bordered:true, ubklaslar:"badgeCover badgeCoverdikey", infogoster:false, unklaslar:"unTextLight unfontKucuk unfontAile", biklaslar:"badgeinfotext bilightyazi bipunto12 bigriyazi ", unamesize:"half", unamegoster:true});
+
+
+
     return(
         <div id="storiesCover">
-        {/* <button className='leftBtn' onClick={()=>{
-            let total = document.getElementsByClassName('scrollcontainer')[0].children.length;
-            if(total < 6) return;
-            if(sira === 0){ 
-                sira = total - 5; 
-            }else{
-                sira = sira - 1;
-            } 
-
-            let solhiza = sira * 75 + 5;
-            console.log(solhiza);
-
-            document.getElementsByClassName('scrollcontainer')[0].style.marginLeft = "-" + solhiza + "px";
-
-        }}>
-            {/* &#60; 
         
-
-        </button> */}
-
         <svg onClick={()=>{
             let total = document.getElementsByClassName('scrollcontainer')[0].children.length;
             if(total < 6) return;
@@ -42,24 +28,46 @@ export default function Stories(){
 
             document.getElementsByClassName('scrollcontainer')[0].style.marginLeft = "-" + solhiza + "px";
 
-        }} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="2" className="bi bi-chevron-left leftBtn" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>
+        }} className="leftBtn" width="40" height="40" fill="white"  version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+        <path d="m105 272.65c-1.918 64.938 22.031 127.98 66.586 175.26 44.555 47.277 106.06 74.93 171 76.867 64.938 1.9375 127.98-21.992 175.28-66.531 47.293-44.539 74.961-106.04 76.918-170.98 1.957-64.934-21.953-127.99-66.48-175.3-44.523-47.309-106.02-74.996-170.95-76.973-43.012-1.3086-85.609 8.7305-123.51 29.113-37.898 20.383-69.758 50.391-92.379 86.996-22.617 36.609-35.195 78.527-36.465 121.54zm319.38-121.1-112.35 128.45 112.35 128.45-26.25 23.102-132.65-151.55 132.65-151.55z"/>
+        </svg>
+
 
 
 
             <div className='scrollcontainer'>
-            <Story url="https://picsum.photos/id/28/100/100" name="1Ahmet Denizli 1" />
-            <Story url="https://picsum.photos/id/29/100/100" name="2Ahmet Denizli 2" />
-            <Story url="https://picsum.photos/id/30/100/100" name="3Ahmet Denizli 3" />
-            <Story url="https://picsum.photos/id/31/100/100" name="4Ahmet Denizli 4" />
-            <Story url="https://picsum.photos/id/32/100/100" name="5Ahmet Denizli 5" />
-            <Story url="https://picsum.photos/id/33/100/100" name="6Ahmet Denizli 6" />
-            <Story url="https://picsum.photos/id/34/100/100" name="7Ahmet Denizli 7" />
-            <Story url="https://picsum.photos/id/35/100/100" name="8Ahmet Denizli 8" />
-            <Story url="https://picsum.photos/id/36/100/100" name="9Ahmet Denizli 9" />
+
+
+            <UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}    unamesize={scarduser.unamesize} unamegoster={scarduser.unamegoster}/>
+
+            <UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+            <UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar} unamegoster={scarduser.unamegoster} />
+
+            <UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+            <UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+            <UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+            <UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+<UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+<UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+<UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+<UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+<UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+<UserBadge ubklaslar={scarduser.ubklaslar} src={scarduser.src}   ufsize={scarduser.ufsize} bordered={scarduser.bordered}  yatayaragenis={scarduser.yatayaragenis} uname={scarduser.uname} badgeText={scarduser.badgeText}  infogoster={scarduser.infogoster} unklaslar={scarduser.unklaslar} biklaslar={scarduser.biklaslar}  unamegoster={scarduser.unamegoster}/>
+
+
             </div>
 
-                
-            <svg  onClick={()=>{
+        <svg onClick={()=>{
             let total = document.getElementsByClassName('scrollcontainer')[0].children.length;
             if(total < 6) return;
             if(sira >= total - 5){ 
@@ -73,7 +81,11 @@ export default function Stories(){
 
             document.getElementsByClassName('scrollcontainer')[0].style.marginLeft = "-" + solhiza + "px";
 
-        }}  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  stroke="currentColor" stroke-width="2" className="bi bi-chevron-right rightBtn" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+        }} className="rightBtn" width="40" height="40" fill="white" version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+        <path d="m595 287.35c1.918-64.938-22.031-127.98-66.586-175.26-44.555-47.277-106.06-74.93-171-76.867-64.938-1.9375-127.98 21.992-175.28 66.531-47.293 44.539-74.961 106.04-76.918 170.98-1.957 64.934 21.953 127.99 66.48 175.3 44.523 47.309 106.02 74.996 170.95 76.973 43.012 1.3086 85.609-8.7305 123.51-29.113 37.898-20.383 69.758-50.391 92.379-86.996 22.617-36.609 35.195-78.527 36.465-121.54zm-319.38 121.1 112.35-128.45-112.35-128.45 26.25-23.102 132.65 151.55-132.65 151.55z"/>
+        </svg>
+
+        
 
 
         </div>

@@ -1,0 +1,48 @@
+
+.unameCover{
+    /* min-width: 30px;
+    max-width: 70px; */
+    display: inline-flex;
+    margin-right: 0.5rem;
+}
+
+.unfontAile{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor:pointer;
+    
+}
+
+.unTextBold{
+    font-weight:600;
+    padding:0rem;
+}
+
+.unTextextraBold{
+    font-weight:700;
+    padding:0rem;
+}
+
+.unTextLight{
+    font-weight:normal;
+    padding:0rem;
+}
+
+
+.unfontBuyuk{
+    font-size:14px;
+}
+
+
+
+.unfontKucuk{
+    font-size:12px;
+}
+
+.unsiyahyazi{
+    color:black;
+}
+
+
+.ungriyazi{
+    color:rgb(75, 75, 75);
+}

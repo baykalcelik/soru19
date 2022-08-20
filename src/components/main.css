@@ -1,11 +1,39 @@
 
 #mainCover{
-    width:385px;
-    border:1px solid red;
+    margin:0px;
+    box-sizing: border-box;
+    width:55%;
+    /* max-width:45%; */
+    /* width:385px; */
+    /* border:1px solid red; */
     min-height: 100vh;
-    gap:1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap:1rem;
 }
 
+#postCollection{
+    width:100%;
+    /* width:385px; */
+    /* border:1px solid black; */
+    min-height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    
 
 
+}
 
+@media all and (max-width:1000px){
+    #mainCover{
+      width:90%;
+      margin:0 auto;
+    }
+  
+    
+  }

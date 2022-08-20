@@ -1,0 +1,67 @@
+
+
+.suggesCover{
+    width:100%;
+
+}
+
+.suggesfl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.5rem 0rem 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.suggesttext{
+    font-size: 0.9rem;
+    color:rgb(158, 158, 158);
+    font-weight: bold;
+    /* margin-bottom: 1rem; */
+}
+
+.allsuggest{
+    outline:none;
+    border:none;
+    background-color: white;
+    font-weight: 600;
+    font-size:0.8rem;
+
+}
+
+.suggestFooter{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+}
+
+.footerLinks{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.footerLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:rgb(196, 194, 194);
+    cursor:pointer;
+    font-size: 0.7rem;
+    font-weight: 500;
+    /* background-color:lightcoral; */
+    
+}
+
+.aranokta{
+    /* background-color: aqua; */
+    width:10px;
+    padding-bottom: 0.3rem;
+    color:rgb(196, 194, 194);
+}
+
+.footerText{
+    color:rgb(196, 194, 194);
+    font-size: 0.8rem;
+}

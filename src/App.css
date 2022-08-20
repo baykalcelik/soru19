@@ -2,12 +2,32 @@
   width:100%;
 }
 
-#bodyArea{
+.bodyArea{
+  margin: 0 auto;
+  padding: 1.5rem 0rem; 
+
     display: flex;
-    justify-content: center;
-    width:100%;
+    /* justify-content: center; */
+    width:75%;
     background-color: rgb(250,250,250); 
-    border: 3px solid green;
+    /* border: 3px solid green; */
+    gap:1rem;
+}
+
+@media all and (max-width:1000px){
+  .bodyArea{
+    width: 80%;
+  }
+}
+
+
+
+@media all and (max-width:600px){
+  .bodyArea{
+    width: 100%;
+  }
+
+
 }
 
 

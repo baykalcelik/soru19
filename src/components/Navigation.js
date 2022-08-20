@@ -2,10 +2,15 @@ import './Navigation.css';
 import Logo from './Logo';
 import SearchBar from './SearchBar';
 import Menu from './Menu';
-import RegUserProfile from './RegUserProfile'
+import UserBadge from './UserBadge';
+import { useState } from 'react';
+// import RegUserProfile from './RegUserProfile'
 
 
 export default function Navigation(){
+
+    const [activeuser, setActiveuser] = useState({
+        badgeText:"Baykal Çelik", uname:"baykal3183", src:"https://picsum.photos/id/23/100/100",yatayaragenis:false, ufsize:"extrasmall",bordered:false, ubklaslar:"badgeCover badgeCoveryatay", infogoster:false, unklaslar:"unTextBold unfontBuyuk ungriyazi unfontAile", biklaslar:"badgeinfotext bilightyazi bipunto14 bigriyazi ", unamesize:"full", unamegoster:false});
 
 
     return(
@@ -17,9 +22,19 @@ export default function Navigation(){
             fill="currentColor" fillRule="evenodd"></path>
             </svg>}/>
             <SearchBar />
+
+
+            
             <div id="navRightArea">
             <Menu />
-            <RegUserProfile />
+
+
+            
+
+            <UserBadge ubklaslar={activeuser.ubklaslar} src={activeuser.src}   ufsize={activeuser.ufsize} bordered={activeuser.bordered}  yatayaragenis={activeuser.yatayaragenis} uname={activeuser.uname} badgeText={activeuser.badgeText}  infogoster={activeuser.infogoster} unklaslar={activeuser.unklaslar} biklaslar={activeuser.biklaslar} unamesize={activeuser.unamesize} unamegoster={activeuser.unamegoster}/>
+
+
+
             </div>
             
 

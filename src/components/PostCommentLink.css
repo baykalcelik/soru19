@@ -1,0 +1,12 @@
+
+
+.postcommentlinkcover{
+    cursor:pointer;
+    
+}
+
+
+.postcommentlinkcover:hover{
+    color:rgb(165, 164, 164);
+    cursor:pointer;
+}

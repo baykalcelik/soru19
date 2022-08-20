@@ -1,0 +1,40 @@
+
+.badgeCover{
+    display: flex;
+
+}
+
+.badgeCoveryatay{
+ 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.badgeCoverdikey{
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+.badgeTextDiv{
+    /* background-color: lightsalmon; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column; 
+        
+}
+
+.yatayaraDar{
+    margin-left: 0.5rem;
+}
+
+.yatayaraGenis{
+    margin-left: 1rem;
+}

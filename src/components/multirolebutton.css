@@ -1,0 +1,39 @@
+
+
+.mrbuttonCover{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.switchBtn{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family:'Arial Narrow Bold', sans-serif; */
+    outline:none;
+    border:none;
+    background-color: white;
+    
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.maviBtn{
+    color:rgb(36, 163, 248);
+}
+
+.acikmaviBtn{
+    color:rgb(36, 163, 248);
+}
+
+.siyahBtn{
+    color:black;
+}
+
+.mrBtn12px{
+    font-size: 12px;
+}
+
+.mrBtn14px{
+    font-size: 14px;
+}

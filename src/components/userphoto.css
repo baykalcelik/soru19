@@ -1,0 +1,87 @@
+
+
+.bordered{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgb(241,250,0);
+    /* background: linear-gradient(45deg, rgba(241,250,0,1) 0%, rgba(246,0,0,1) 50%, rgba(255,0,148,1) 100%); */
+    background: linear-gradient(43deg, rgba(241,250,0,1) 0%, rgba(238,243,0,1) 21%, rgba(246,0,0,1) 50%, rgba(255,0,148,1) 74%, rgba(255,0,148,1) 100%);
+
+}
+
+
+.unbordered{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: white;
+}
+
+
+
+
+.bigCircle{
+    width:62px;
+    height:62px;
+}
+
+.extrasmallCircle{
+    width:32px;
+    height:32px;
+    
+}
+
+.smallCircle{
+    width:40px;
+    height:40px;
+}
+
+.mediumCircle{
+    width:58px;
+    height:58px;
+}
+
+.mediumPhoto{
+    display: block;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+
+
+
+.bigPhoto{
+    display: block;
+    width:54px;
+    height:54px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+
+.smallPhoto{
+    display: block;
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+
+.extrasmallPhoto{
+    display: block;
+    width:24px;
+    height:24px;
+    border-radius: 50%;
+    border: 2px solid white;
+}

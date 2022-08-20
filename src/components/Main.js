@@ -13,6 +13,10 @@ export default function Main(){
             
             <div id="postCollection">
                 <Post />
+                <Post />
+                <Post />
+                <Post />
+                <Post />
 
             </div>
         </div>

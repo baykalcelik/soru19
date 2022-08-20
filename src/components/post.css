@@ -1,0 +1,135 @@
+
+
+#postCover{
+    border-radius: 10px;
+    border:1px solid rgb(223, 222, 222);
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+.postHeaderArea{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding:0.3rem;
+
+
+}
+
+.postUserData{
+    display: flex;
+    height: auto;
+
+}
+
+
+.postUserPhoto{
+    border-radius: 50%;
+
+}
+
+.postUserOptions{
+    outline:none;
+    border:none;
+    background-color: white;
+    /* font-size: 1.5rem; */
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    /* border:1px solid black; */
+    padding:0rem;
+    cursor:pointer;
+
+}
+
+.postContentimage{
+    width:100%;
+
+}
+
+.postContentMedia{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.postContent{
+    padding: 0.7rem;
+
+}
+
+.postContentIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.postCIL{
+    display: flex;
+    gap:1rem;
+
+}
+
+.postLikeCount{
+    font-size:0.9rem;
+    font-weight:700;
+
+}
+
+.postUserNameLink{
+    font-size:0.9rem;
+    font-weight:700;
+
+}
+
+.firstComment{
+    font-size:0.9rem;
+
+}
+
+.viewAllComments{
+    font-size:0.9rem;
+    color:rgb(151, 150, 150);
+}
+
+.whenposted{
+    font-size:0.6rem;
+    color:rgb(151, 150, 150);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.postFooter{
+    border-top: 1px solid rgb(223, 222, 222);
+    /* width:100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    padding: 0.7rem 0.7rem 0.5rem 0.7rem;
+
+    gap:0.5rem;
+
+}
+
+.comment_input{
+    width: 75%;
+    outline:none;
+    border:none;
+
+}
+
+
+.send_post_button{
+    border-radius: 0px 0px 10px  10px;
+    outline:none;
+    border:none;
+    background-color: white;
+    cursor:pointer;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(138, 222, 248);
+
+}
